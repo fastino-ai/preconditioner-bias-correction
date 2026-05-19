@@ -212,19 +212,3 @@ This is what makes the AdamW BC pretraining win possible at all.
 Apache-2.0 (matching the Qwen2.5-0.5B / Sophia / Shampoo upstreams used).
 The repository releases code only; data and model checkpoints are not
 distributed.
-
-## Citation
-
-If you use this code, please cite the paper:
-
-```bibtex
-@article{nayak2024correcting,
-  title  = {Correcting Stochastic Update Bias in Preconditioned Language Model Optimizers},
-  author = {Nayak, Nikhil and White, Julia and Zaratiana, Urchade and Zhang, Kelton and
-            Princis, Henrijs and Atreja, Dhruv and Fawcett, Henry and Thomas, Matthew and
-            Hurn-Maloney, George and Lewis, Ash},
-  journal = {arXiv preprint},
-  year    = {2024},
-  url     = {https://github.com/fastino-ai/preconditioner-bias-correction}
-}
-```

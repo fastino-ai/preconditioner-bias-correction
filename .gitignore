@@ -14,7 +14,6 @@ dist/
 *.swo
 
 # Runtime state
-.claude/
 *.log.tmp
 *.json.tmp
 
