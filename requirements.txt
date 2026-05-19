@@ -1,0 +1,8 @@
+# Pinning is intentionally loose — the experiments were run on stable
+# 2024/2025-era versions of these packages on a single A100-80GB. Newer
+# versions should also work.
+torch>=2.1
+transformers>=4.40
+datasets>=2.18
+numpy>=1.24
+matplotlib>=3.7

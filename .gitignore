@@ -3,6 +3,11 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+
 # Editor/OS junk
 .DS_Store
 *.swp
@@ -13,11 +18,12 @@ __pycache__/
 *.log.tmp
 *.json.tmp
 
-# Local data dumps (kept on disk, not in git)
-data/
+# Local data dumps (kept on disk, not in git). Scope to repo root so we
+# don't accidentally ignore src/bcopt/data/ (the data-prep Python module).
+/data/
 
 # Experiment outputs (logs, histories, checkpoints, plots) - ~200GB locally
-runs/
+/runs/
 
 # Paper sources (not part of the released code)
 Bias_Corrected_Preconditioned_Optimization_for_Language_Model_Training/
@@ -29,3 +35,4 @@ Bias_Corrected_Preconditioned_Optimization_for_Language_Model_Training/
 # Virtualenvs
 .venv/
 venv/
+
