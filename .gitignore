@@ -1,0 +1,31 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor/OS junk
+.DS_Store
+*.swp
+*.swo
+
+# Runtime state
+.claude/
+*.log.tmp
+*.json.tmp
+
+# Local data dumps (kept on disk, not in git)
+data/
+
+# Experiment outputs (logs, histories, checkpoints, plots) - ~200GB locally
+runs/
+
+# Paper sources (not part of the released code)
+Bias_Corrected_Preconditioned_Optimization_for_Language_Model_Training/
+
+# Misc temp / scratch
+*.tmp
+/tmp/auto_chain_noisy.log
+
+# Virtualenvs
+.venv/
+venv/
